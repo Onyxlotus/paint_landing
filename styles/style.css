@@ -1,0 +1,23 @@
+@import url(./header.css);
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+}
+
+
+body{
+    background-color: #FFF1C9;
+}
+
+.wrapper{
+    margin: 0 auto;
+}

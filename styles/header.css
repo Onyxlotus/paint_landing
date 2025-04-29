@@ -1,0 +1,27 @@
+.header{
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 96px;
+    margin-top: 60px;
+    border-radius: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header 
+.container {
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 30px;
+}
+
+
+.langFlag{
+    display: flex;
+    cursor: pointer;
+    gap: 7px;
+}

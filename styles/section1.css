@@ -1,0 +1,85 @@
+.section1{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 11px;
+    margin: 68px 160px 0 250px;
+}
+
+.section1 .container{
+    max-width: 780px;
+    padding: 45px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    
+}
+
+.section1 .container .orangeText{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: auto;
+    color: #F9B800;
+    
+}
+
+.section1 .container h1{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 90px;
+    color: #262626;
+    white-space: nowrap; /* предотвратит переносы */
+    overflow-wrap: normal;
+}
+
+.checkBlock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 780px;
+    margin-top: 60px;
+}
+
+.checkCard{
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    border-radius: 50px;
+    color: #262626;
+    background-color: #fff;
+    padding: 14px 40px 14px 20px;
+    margin: 14px 14px 0 0;
+}
+
+.buttonHref{
+    text-decoration: none;
+    color: #262626;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    padding: 22px 50px 24px 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F9B800;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+    width: fit-content; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.illustration{
+    width: 714px;
+    height: 714px;
+}

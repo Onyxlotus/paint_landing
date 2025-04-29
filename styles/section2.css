@@ -1,0 +1,62 @@
+.slanted-background{
+    background-color: #F9B800;
+    transform: skewY(-12deg);
+    margin-top: 125px;
+    padding-bottom: 135px;
+}
+
+.slanted-background .slanted-container{
+    transform: skewY(12deg);
+    display: flex;
+    flex-direction: row;
+    gap: 145.7px;
+    margin: 0 232px 0 258px;
+    align-items: start;
+}
+
+.slanted-container .container{
+    max-width: 576px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 237px;
+}
+
+.slanted-container .container h2{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #262626;
+    max-width: 528.5px;
+    padding-top: 35px;
+}
+
+.slanted-container .container .underline{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    line-height: 34px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.slanted-container .container .woutline{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #262626;
+    letter-spacing: 0.4px;
+    width: 575px;
+}
+
+.buttonHrefBlack{
+    background-color: #262626;
+    color: #fff;
+    margin-top: 44px;
+}
+
+.illustration2{
+    width: 714px;
+    height: 714px;
+    margin-top: 75px;
+}

@@ -1,0 +1,116 @@
+.slanted-background2{
+    background-color: #262626;
+    transform: skewY(-12deg);
+    padding-bottom: 135px;
+}
+
+.slanted-background2 .slanted-container{
+    transform: skewY(12deg);
+    display: flex;
+    flex-direction: row;
+    gap: 154px;
+    margin: 0 232px 0 258px;
+    align-items: start;
+}
+
+.slanted-background2 .slanted-container .container  {
+    display: flex;
+    flex-direction: column;
+}
+
+.orangeSmallText{
+    color: #F9B800;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+}
+
+.slanted-background2 .slanted-container .container h2{
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 50px;
+    padding: 0;
+    max-width: 552px;
+}
+
+.buttonHrefWhite{
+    background-color: #fff;
+    color: #262626;
+}
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    height: 983px;
+}
+
+.leftCards{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-self: start;
+}
+
+.rightCards{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-self: end;
+}
+
+.card{
+    min-width: 360px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    white-space: nowrap;
+    border-radius: 60px;
+    padding: 50px 50px 56px 50px;
+}
+
+.whiteCard{
+    background-color: #fff;
+    color: #262626;
+}
+
+.yellowCard{
+    background-color: #F9B800;
+    color: #262626;
+}
+
+.card h2{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 72px;
+}
+
+.card h2 .yellowDot{
+    color: #F9B800;
+}
+
+.card h2 .whiteDot{
+    color:#fff;
+}
+
+.card h3{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    font-weight: 700;
+}
+
+.card h4{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.card p{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
