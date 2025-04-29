@@ -1,0 +1,27 @@
+.section4{
+    position: relative;
+    z-index: 1;
+    max-width: 1650px;
+    max-height: 672px;
+    margin: 0 auto;
+}
+
+.section4 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.avatar{
+    margin:100px 72px 100px 0;
+}
+
+.section4 .container .textContainer h2{
+    color: #262626;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}

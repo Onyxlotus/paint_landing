@@ -11,6 +11,7 @@
     gap: 154px;
     margin: 0 232px 0 258px;
     align-items: start;
+    padding-top: 238px;
 }
 
 .slanted-background2 .slanted-container .container  {
@@ -43,6 +44,7 @@
     flex-direction: row;
     gap: 60px;
     height: 983px;
+    
 }
 
 .leftCards{
