@@ -1,0 +1,25 @@
+.section7{
+    margin-top: 200px;
+    margin-bottom: 90px;
+}
+
+.section7 .container{
+    display: flex;
+    margin: 0 192px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section7 .container h2{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #262626;
+    max-width: 713px;
+}
+
+.section7 hr{
+    margin: 90px 190px 40px 190px;
+    height: 1px;
+    background-color: #262626;
+}

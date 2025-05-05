@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 205px 82px 205px;
+}
+
+.footer .left{
+    color: #262626;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer .right{
+    color: #262626;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+}

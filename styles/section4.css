@@ -10,7 +10,7 @@
 .section4 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     background-color: #fff;
     border-radius: 100px;
     padding: 100px 135px 100px 135px;
@@ -49,4 +49,19 @@
     align-items: center;
     justify-content: start;
     gap: 40px;
+   
 }
+
+.section4 .container .textContainer .arrows img{
+    cursor: pointer;
+}
+
+
+.fade {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
