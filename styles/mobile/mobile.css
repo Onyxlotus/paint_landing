@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+
+    /* header */
+
+    .header{
+        height: 72px;
+        margin-top: 50px;
+    }
+    
+    .header 
+    .container {
+        width: 100%;
+        padding: 12px 22.5px;
+    }
+    
+    
+    .langFlag{
+        gap: 5.25px;
+    }
+
+    /* section1 */
+
+    .section1{
+        flex-direction: column-reverse;
+        gap: 0;
+        margin: 0px 16px 0 9px;
+    }
+    
+    .section1 .container{
+        max-width: 606px;
+        margin-top: -20px;
+        padding: 0 4px 0 11px;
+        
+    }
+    
+    .section1 .container .orangeText{
+        font-size: 16px;
+    }
+    
+    .section1 .container h1{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    
+    .checkBlock{
+        text-wrap: nowrap;
+        max-width: 297px;
+        margin-top: 30px;
+    }
+    
+    .checkCard{
+        font-size: 16px;
+        gap: 5.9px;
+        padding: 11.8px 33.7px 11.8px 16.85px;
+        margin: 7px 7px 0 0;
+    }
+    
+    .buttonHref{
+        font-size: 18px;
+        margin-top: 40px;
+        padding: 17px 38px 18px 38px;
+        gap: 121px;
+    }
+    
+    .illustration{
+        width: 350px;
+        height: 350px;
+    }
+
+    /* section2 */
+
+    .slanted-background{
+        /* margin-top: 125px;
+        padding-bottom: 135px; */
+    }
+    
+    .slanted-background .slanted-container{
+        flex-direction: column-reverse;
+        gap: 0;
+        margin: 0 16px 0 9px;
+    }
+    
+    .slanted-container .container{
+        max-width: 571px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+    
+    .slanted-container .container h2{
+        font-size: 36px;
+        max-width: 335px;
+        padding-top: -20px;
+    }
+    
+
+    /* вот тут остановился */
+
+    .slanted-container .container .underline{
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #262626;
+        line-height: 34px;
+        margin-top: 50px;
+        text-decoration: underline;
+    }
+    
+    .slanted-container .container .woutline{
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #262626;
+        letter-spacing: 0.4px;
+        width: 575px;
+    }
+    
+    .buttonHrefBlack{
+        background-color: #262626;
+        color: #fff;
+        margin-top: 44px;
+    }
+    
+    .illustration2{
+        width: 350px;
+        height: 350px;
+        margin-top: 25px;
+    }
+
+}
