@@ -9,9 +9,9 @@
     display: flex;
     flex-direction: row;
     gap: 154px;
-    margin: 0 232px 0 258px;
+    margin: 0 192px 0 245px;
     align-items: start;
-    padding-top: 238px;
+    padding-top: 180px;
 }
 
 .slanted-background2 .slanted-container .container  {
@@ -32,7 +32,6 @@
     font-family: 'Segoe UI', sans-serif;
     font-size: 50px;
     padding: 0;
-    max-width: 552px;
 }
 
 .buttonHrefWhite{
@@ -43,7 +42,7 @@
     display: flex;
     flex-direction: row;
     gap: 60px;
-    height: 983px;
+    height: 956px;
     
 }
 
@@ -52,6 +51,7 @@
     flex-direction: column;
     gap: 60px;
     align-self: start;
+    margin-top: -27px;
 }
 
 .rightCards{
@@ -62,7 +62,7 @@
 }
 
 .card{
-    min-width: 360px;
+    min-width: 350px;
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -71,6 +71,10 @@
     white-space: nowrap;
     border-radius: 60px;
     padding: 50px 50px 56px 50px;
+}
+
+.card img{
+    margin-bottom: 24px;
 }
 
 .whiteCard{
@@ -99,8 +103,8 @@
 .card h3{
     font-family: 'Segoe UI', sans-serif;
     font-size: 24px;
-    margin-top: 10px;
-    margin-bottom: 19px;
+    margin-top: 12.5px;
+    margin-bottom: 17px;
     font-weight: 700;
 }
 

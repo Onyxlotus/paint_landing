@@ -1,14 +1,14 @@
 .section4{
     position: relative;
     z-index: 1;
-    max-width: 1650px;
-    max-height: 672px;
     margin: 0 auto;
-    margin-top: -500px;
+    margin: -750px 137px 0 138px;
+    padding-top: 100px;
 }
 
 .section4 .container{
     display: flex;
+    max-height: 672px;
     align-items: center;
     justify-content: start;
     background-color: #fff;
@@ -20,12 +20,21 @@
     margin:100px 72px 100px 0;
 }
 
+.section4 .container .textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: -12.5px;
+    margin-top: 27px;
+    gap: 40px;
+}
+
 .section4 .container .textContainer h2{
     color: #262626;
     font-family: 'Segoe UI', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 40px;
 }
 
 .section4 .container .textContainer .comment{
@@ -41,7 +50,6 @@
     font-family: 'Segoe UI', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 40px;
 }
 
 .section4 .container .textContainer .arrows{

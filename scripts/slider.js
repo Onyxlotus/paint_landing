@@ -1,7 +1,7 @@
 const reviews = [
     {
       avatar: './images/commentAva.png',
-      comment: 'Euismod magna id purus eget nunc ligula suspendisse...',
+      comment: 'Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis.',
       name: 'Holly Davidson'
     },
     {

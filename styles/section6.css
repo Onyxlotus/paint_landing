@@ -1,10 +1,10 @@
- .slanted-background3{
+.slanted-background3{
     padding-bottom: 250px;
 }
 
 .slanted-container2{
     transform: skewY(12deg);
-    padding-top: 100px;
+    padding-top: 405px;
 }
 
 .container2{
@@ -20,6 +20,7 @@
     font-size: 60px;
     line-height: 72px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .container2 h3{
@@ -37,10 +38,11 @@
     align-items: center;
     background-color: #fff;
     width: 1650px;
-    margin-bottom: 24px;
-    padding: 66px 60px 66px 90px;
+    margin-bottom: 21px;
+    padding: 40px 60px 44px 90px;
     border-radius: 50px;
     cursor: pointer;
+    transition: padding 0.4s ease;
 }
 
 
@@ -50,23 +52,21 @@
     margin-bottom: 0px;
     font-family: 'Segoe UI', sans-serif;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .toggleText{
     display: none;
-    max-height: 140px;
     margin-top: 20px;
+    max-width: 1372px;
     font-family: 'Segoe UI', sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
     color: #262626;
-    transition: max-height 0.4s ease;
 }
 
 .toggleText.open{
     display: inline-block;
-    max-height: 272px;
 }
 
