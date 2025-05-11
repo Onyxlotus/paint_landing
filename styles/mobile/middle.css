@@ -1,0 +1,223 @@
+@media (max-width: 1800px) {
+
+    /* header */
+
+    .header{
+        height: 84px;
+        margin-top: 55px;
+    }
+    
+    .header 
+    .container {
+        padding: 24px 26.5px;
+    }
+    
+    
+    .langFlag{
+        gap: 6px;
+    }
+
+    /* section1 */
+
+    .section1{
+        gap: 5.5px;
+        margin: 40px 80px 0 100px;
+    }
+    
+    .section1 .container{
+        max-width: 680px;
+        padding: 45px 0 0 0;
+    }
+    
+    .section1 .container .orangeText{
+        font-size: 24px;
+    }
+    
+    .section1 .container h1{
+        font-size: 56px;
+        line-height: 70px;
+    }
+    
+    .checkBlock{
+        text-wrap: wrap;
+        max-width: 780px;
+        margin-top: 30px;
+    }
+    
+    .checkCard{
+        font-size: 16px;
+        gap: 5.9px;
+        padding: 11.8px 33.7px 11.8px 16.85px;
+        margin: 7px 7px 0 0;
+    }
+    
+    .buttonHref{
+        font-size: 18px;
+        margin-top: 40px;
+        padding: 17px 38px 18px 38px;
+        gap: 72px;
+    }
+    
+    .illustration{
+        width: 550px;
+        height: 550px;
+    }
+
+    /* section2 */
+
+    .slanted-background{
+        /* margin-top: 125px;
+        padding-bottom: 135px; */
+    }
+    
+    .slanted-background .slanted-container{
+        gap: 40px;
+        margin: 0 80px 0 100px;
+    }
+    
+    .slanted-container .container{
+        max-width: 571px;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .slanted-container .container h2{
+        font-size: 36px;
+    }
+    
+
+    .slanted-container .container .underline{
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 30px;
+    }
+    
+    .slanted-container .container .woutline{
+        font-size: 16px;
+        letter-spacing: 0.3px;
+        width: 500px;
+    }
+    
+    .buttonHrefBlack{
+        margin-top: 30px;
+    }
+    
+    .illustration2{
+        width: 550px;
+        height: 550px;
+    }
+
+    /* section3 */
+
+    .slanted-background2{
+        /* padding-bottom: 735px; */
+    }
+
+    .slanted-background2 .slanted-container{
+        gap: 40px;
+        margin: 0 80px 0 100px;
+        padding-top: 100px;
+    }
+
+    .slanted-background2 .slanted-container .container  {
+        margin-top: 150px;
+    }
+
+    .orangeSmallText{
+        font-size: 16px;
+        letter-spacing: 0.3px;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+
+    .slanted-background2 .slanted-container .container h2{
+        font-size: 40px;
+        padding: 0;
+        max-width: 552px;
+    }
+
+    .cardsContainer{
+        gap: 30px;
+        height: 900px;
+        
+    }
+
+    .leftCards{
+        gap: 30px;
+    }
+
+    .rightCards{
+        gap: 30px;
+    }
+
+    .card{
+        min-width: 200px;
+        min-height: 240px;
+    }
+
+    /* section4 */
+
+    .section4{
+        max-width: 1650px;
+        max-height: 672px;
+        margin: -500px 80px 0 100px;
+    }
+
+    .section4 .container{
+        border-radius: 100px;
+        padding: 50px 75px 50px 75px;
+    }
+
+    .avatar{
+        width: 300px;
+        height: 300px;
+    }
+
+    .section4 .container .textContainer h2{
+        color: #262626;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .section4 .container .textContainer .comment{
+        color: #262626;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .section4 .container .textContainer .name{
+        color: #262626;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .section4 .container .textContainer .arrows{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 40px;
+    
+    }
+
+    .section4 .container .textContainer .arrows img{
+        cursor: pointer;
+    }
+
+
+    .fade {
+        opacity: 1;
+        transition: opacity 0.4s ease;
+    }
+    
+    .fade-out {
+        opacity: 0;
+    }
+
+}
