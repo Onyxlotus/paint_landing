@@ -4,7 +4,7 @@
 
     .header{
         height: 72px;
-        margin-top: 50px;
+        margin: 50px 13px 0 12px;
     }
     
     .header 
@@ -12,10 +12,21 @@
         width: 100%;
         padding: 12px 22.5px;
     }
+
+    .header 
+    .container .logo{
+        width: 95px;
+        height: 47px;
+    }
     
     
     .langFlag{
         gap: 5.25px;
+    }
+
+    .langFlag .flag{
+        width: 27px;
+        height: 18px;
     }
 
     /* section1 */
@@ -35,11 +46,16 @@
     
     .section1 .container .orangeText{
         font-size: 16px;
+        margin-bottom: 10px;
     }
     
     .section1 .container h1{
         font-size: 36px;
         line-height: 36px;
+    }
+
+    .section1 .container h1 span{
+        font-size: 32px;
     }
     
     .checkBlock{
@@ -60,6 +76,7 @@
         margin-top: 40px;
         padding: 17px 38px 18px 38px;
         gap: 121px;
+        text-wrap: nowrap;
     }
     
     .illustration{
@@ -70,8 +87,7 @@
     /* section2 */
 
     .slanted-background{
-        /* margin-top: 125px;
-        padding-bottom: 135px; */
+        margin-top: 90px;
     }
     
     .slanted-background .slanted-container{
@@ -84,7 +100,7 @@
         max-width: 571px;
         display: flex;
         flex-direction: column;
-        margin-top: -20px;
+        margin-top: -60px;
     }
     
     .slanted-container .container h2{
@@ -94,37 +110,161 @@
     }
     
 
-    /* вот тут остановился */
-
     .slanted-container .container .underline{
-        font-family: 'Segoe UI', sans-serif;
         font-size: 20px;
-        font-weight: 600;
-        color: #262626;
         line-height: 34px;
-        margin-top: 50px;
-        text-decoration: underline;
+        margin-top: 20px;
     }
     
     .slanted-container .container .woutline{
-        font-family: 'Segoe UI', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        color: #262626;
-        letter-spacing: 0.4px;
-        width: 575px;
+        width: 335px;
     }
     
     .buttonHrefBlack{
-        background-color: #262626;
-        color: #fff;
-        margin-top: 44px;
+        margin-top: 30px;
     }
     
     .illustration2{
         width: 350px;
         height: 350px;
         margin-top: 25px;
+    }
+
+    /* section3 */
+    .slanted-background2{
+        /* padding-bottom: 735px; */
+    }
+
+    .slanted-background2 .slanted-container{
+        flex-direction: column;
+        gap: 55px;
+        margin: -50px 20px 0 20px;
+        align-items: start;
+        padding-top: 135px;
+    }
+
+    .slanted-background2 .slanted-container .container  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .orangeSmallText{
+        font-size: 20px;
+        letter-spacing: 0.4px;
+        margin-bottom: 20px;
+    }
+
+    .slanted-background2 .slanted-container .container h2{
+        font-size: 36px;
+        padding: 0;
+    }
+
+    .buttonHrefWhite{
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+
+    /* остановился тут */
+
+    /* .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        height: 956px;
+        
+    }
+
+    .leftCards{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        align-self: start;
+        margin-top: -27px;
+    }
+
+    .rightCards{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        align-self: end;
+    } */
+
+    .cardsContainer {
+        flex-direction: column;
+    }
+
+    .leftCards, .rightCards {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .leftCards .card:nth-child(1) { order: 1; }
+    .rightCards .card:nth-child(1) { order: 2; }
+    .leftCards .card:nth-child(2) { order: 3; }
+    .rightCards .card:nth-child(2) { order: 4; }
+
+    .cardsContainer > * {
+        display: contents;
+    }
+
+    .card{
+        min-width: 350px;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        white-space: nowrap;
+        border-radius: 60px;
+        padding: 50px 50px 56px 50px;
+    }
+
+    .card img{
+        margin-bottom: 24px;
+    }
+
+    .whiteCard{
+        background-color: #fff;
+        color: #262626;
+    }
+
+    .yellowCard{
+        background-color: #F9B800;
+        color: #262626;
+    }
+
+    .card h2{
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 72px;
+    }
+
+    .card h2 .yellowDot{
+        color: #F9B800;
+    }
+
+    .card h2 .whiteDot{
+        color:#fff;
+    }
+
+    .card h3{
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 24px;
+        margin-top: 12.5px;
+        margin-bottom: 17px;
+        font-weight: 700;
+    }
+
+    .card h4{
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+    .card p{
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
     }
 
 }
