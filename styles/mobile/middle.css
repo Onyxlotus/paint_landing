@@ -1,4 +1,4 @@
-@media (min-width:769px) and (max-width: 1800px) {
+@media (min-width:1201px) and (max-width: 1800px) {
 
     /* header */
 
@@ -231,6 +231,10 @@
         width: 90%;
         margin: 0 80px 24px 100px;
         padding: 46px 40px 46px 70px;
+    }
+
+    .toggleText{
+        font-size: 20px;
     }
 
     /* section7 */
