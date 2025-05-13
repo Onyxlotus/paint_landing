@@ -132,7 +132,7 @@
 
     /* section3 */
     .slanted-background2{
-        /* padding-bottom: 735px; */
+        padding-bottom: 1300px;
     }
 
     .slanted-background2 .slanted-container{
@@ -164,33 +164,9 @@
         margin-bottom: 55px;
     }
 
-    /* остановился тут */
-
-    /* .cardsContainer{
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        height: 956px;
-        
-    }
-
-    .leftCards{
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        align-self: start;
-        margin-top: -27px;
-    }
-
-    .rightCards{
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        align-self: end;
-    } */
-
     .cardsContainer {
         flex-direction: column;
+        margin-top: -55px;
     }
 
     .leftCards, .rightCards {
@@ -208,8 +184,8 @@
     }
 
     .card{
-        min-width: 350px;
-        min-height: 400px;
+        width: 335px;
+        height: 382px;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -265,6 +241,73 @@
         font-family: 'Segoe UI', sans-serif;
         font-size: 18px;
         font-weight: 400;
+    }
+
+    /* section4 */
+    .section4{
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin: -500px 137px 0 138px;
+        padding-top: 100px;
+    }
+
+    .section4 .container{
+        display: flex;
+        max-height: 672px;
+        align-items: center;
+        justify-content: start;
+        background-color: #fff;
+        border-radius: 100px;
+        padding: 100px 135px 100px 135px;
+    }
+
+    .avatar{
+        margin:100px 72px 100px 0;
+    }
+
+    .section4 .container .textContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-left: -12.5px;
+        margin-top: 27px;
+        gap: 40px;
+    }
+
+    .section4 .container .textContainer h2{
+        color: #262626;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .section4 .container .textContainer .comment{
+        color: #262626;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .section4 .container .textContainer .name{
+        color: #262626;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .section4 .container .textContainer .arrows{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 40px;
+    
+    }
+
+    .section4 .container .textContainer .arrows img{
+        cursor: pointer;
     }
 
 }
