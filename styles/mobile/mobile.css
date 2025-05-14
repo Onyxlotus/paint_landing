@@ -303,5 +303,62 @@
 
     /* section6 */
 
+    .slanted-background3{
+        padding-bottom: 250px;
+    }
+
+    .slanted-container2{
+        padding-top: 105px;
+        margin: 0 20px 0 20px;
+    }
+
+    .container2 h2{
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container2 h3{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .bigWhiteCard{
+        width: 335px;
+        max-height: none;
+        padding: 30px 20px 30px 30px;
+        border-radius: 40px;
+        
+    }
+
+    .bigWhiteCard--open{
+        max-height: none;
+        padding: 30px 20px 30px 30px;
+    }
+
+    .bigWhiteCardHeader h3{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .toggleText{
+        display: none;
+        margin-top: 20px;
+        max-width: 228px;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .toggleIcon{
+        width: 36px;
+        height: 36px;
+    }
 
 }
