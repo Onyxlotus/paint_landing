@@ -8,7 +8,7 @@
 
 .section4 .container{
     display: flex;
-    max-height: 672px;
+    height: 672px;
     align-items: start;
     justify-content: start;
     background-color: #fff;
