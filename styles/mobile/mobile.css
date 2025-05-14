@@ -164,34 +164,10 @@
         margin-bottom: 55px;
     }
 
-    /* остановился тут */
-
-    /* .cardsContainer{
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        height: 956px;
-        
-    }
-
-    .leftCards{
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        align-self: start;
-        margin-top: -27px;
-    }
-
-    .rightCards{
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        align-self: end;
-    } */
-
     .cardsContainer {
         flex-direction: column;
         margin-top: -55px;
+        margin-bottom: -215px;
     }
 
     .leftCards, .rightCards {
@@ -201,23 +177,34 @@
 
     .leftCards .card:nth-child(1) { order: 1; }
     .rightCards .card:nth-child(1) { order: 2; }
-    .leftCards .card:nth-child(2) { order: 3; }
-    .rightCards .card:nth-child(2) { order: 4; }
+    .leftCards .card:nth-child(2) { 
+        order: 3; 
+        background-color: #fff;
+    }
+    .leftCards .card:nth-child(2) .whiteDot {
+        color: #F9B800;
+    }
+    .rightCards .card:nth-child(2) { 
+        order: 4; 
+        background-color: #F9B800;
+    }
+
+    .rightCards .card:nth-child(2) .yellowDot {
+        color: #fff;
+    }
 
     .cardsContainer > * {
         display: contents;
     }
 
     .card{
-        max-width: 325px;
-        min-height: 400px;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: start;
-        white-space: nowrap;
+        width: 325px;
+        height: 382px;
+        min-width: unset;
+        min-height: unset;
         border-radius: 60px;
         padding: 50px 50px 56px 50px;
+        margin-bottom: -25px;
     }
 
     .card img{
@@ -244,6 +231,7 @@
     }
 
     /* section4 */
+
     .section4{
         margin: -500px 20px 0 20px;
         padding-top: 100px;
@@ -252,9 +240,6 @@
     .section4 .container{
         flex-direction: column;
         height: 672px;
-        align-items: start;
-        justify-content: start;
-        background-color: #fff;
         border-radius: 57px;
         padding: 0;
     }
@@ -266,8 +251,6 @@
     }
 
     .section4 .container .textContainer{
-        display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -282,12 +265,12 @@
     .section4 .container .textContainer .comment{
         font-size: 16px;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 21px;
     }
 
     .section4 .container .textContainer .name{
         position: absolute;
-        bottom: 85px;
+        bottom: 75px;
         margin-bottom: 10px;
     }
 
@@ -296,5 +279,29 @@
         bottom: 38px;
     
     }
+
+    /*section 5*/
+
+    .section5{
+        margin-top: -405px;
+    }
+
+    .section5 .slanted-background .slanted-container{
+        padding-top: 198px;
+    }
+
+    .section5 .slanted-background .slanted-container .container{
+        margin: 0 11px 0 4px;
+    }
+
+    .illustration3{
+        width: 100%;
+        height: auto;
+        margin-top: 183px;
+        margin-bottom: 25px;
+    }
+
+    /* section6 */
+
 
 }

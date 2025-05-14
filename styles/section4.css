@@ -9,15 +9,16 @@
 .section4 .container{
     display: flex;
     max-height: 672px;
-    align-items: center;
+    align-items: start;
     justify-content: start;
     background-color: #fff;
+    gap: 72px;
     border-radius: 100px;
     padding: 100px 135px 100px 135px;
 }
 
 .avatar{
-    margin:100px 72px 100px 0;
+    
 }
 
 .section4 .container .textContainer{
@@ -26,7 +27,7 @@
     align-items: start;
     justify-content: start;
     margin-left: -12.5px;
-    margin-top: 27px;
+    margin-top: 67px;
     gap: 40px;
 }
 
@@ -46,6 +47,8 @@
 }
 
 .section4 .container .textContainer .name{
+    position: absolute;
+    bottom: 227px;
     color: #262626;
     font-family: 'Segoe UI', sans-serif;
     font-size: 24px;
@@ -53,6 +56,8 @@
 }
 
 .section4 .container .textContainer .arrows{
+    position: absolute;
+    bottom: 170px;
     display: flex;
     align-items: center;
     justify-content: start;
